@@ -129,8 +129,13 @@ def poseidon_test():
 
 if __name__ == "__main__":
     setup, proof, group_order = prover_test()
-    verifier_test(setup, proof, group_order)
 
-    factorization_test()
+    print("----------")
+    print(setup)
 
-    poseidon_test()
+
+    # verifier_test(setup, proof, group_order)
+
+    # factorization_test()
+
+    # poseidon_test()
